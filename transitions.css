@@ -58,7 +58,7 @@ main {
 }
 
 .name:hover {
-  transform: rotate(-2deg) scale(1.2, 1.2);
+  transform: rotate(-3deg) scale(1.2, 1.2);
   background-color: hsl(80deg, 50%, 70%);
 }
 
