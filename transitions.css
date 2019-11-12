@@ -45,7 +45,7 @@ main {
   transition: transform 0.8s;
 }
 .card:hover .avatar{
-  transform: rotate(-3deg);
+  transform: rotate3D(1, 10, 0, 360deg) rotate(-3deg);
 }
 
 .name {
@@ -75,7 +75,7 @@ main {
 }
 
 .avatar img:hover {
-  transform: skewY(180deg) scale(1.1,1.1);
+  transform: scale(1.1,1.1);
   border: 0.25rem solid hsl(80deg, 20%, 90%);
 }
 
